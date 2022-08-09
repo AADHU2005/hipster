@@ -7,10 +7,12 @@ body {
     max-width: 300px;
     margin: auto;
     text-align: center;
+    transition: 1.5s;
 }
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgb(65, 62, 255);
+    transition: 1.5s;
 }
   
 .title {
