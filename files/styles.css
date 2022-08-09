@@ -3,16 +3,17 @@ body {
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
+    box-shadow: 0 10px 25px 0 rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     max-width: 300px;
     margin: auto;
     text-align: center;
-    transition: 1.5s;
+    transition: 1s;
 }
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgb(65, 62, 255);
-    transition: 1.5s;
+    transition: 1s;
 }
   
 .title {
@@ -36,7 +37,7 @@ button {
 a {
     text-decoration: none;
     font-size: 22px;
-    color: rgba(255, 254, 254, 0.815);
+    color: rgba(0, 0, 0, 0.815);
 }
   
 button:hover, a:hover {
