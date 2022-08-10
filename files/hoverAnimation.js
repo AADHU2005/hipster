@@ -8,7 +8,7 @@ instagram.addEventListener("mouseover", () => {
   instagram.innerHTML =
     "<img src='../images/insta_hover.png' style='height:0.95em;'/>";
   setTimeout(() => {
-    instagram.innerHTML = `<i class="fa-brands fa-instagram"></i>`;
+    instagram.innerHTML = `<i class="fa-brands fa-instagram mini_spacing"></i>`;
   }, 50);
 });
 
@@ -16,7 +16,7 @@ discord.addEventListener("mouseover", () => {
   discord.innerHTML =
     "<img src='../images/discord_hover.png' style='height:0.95em;'/>";
   setTimeout(() => {
-    discord.innerHTML = `<i class="fa-brands fa-discord"></i>`;
+    discord.innerHTML = `<i class="fa-brands fa-discord mini_spacing"></i>`;
   }, 50);
 });
 
@@ -24,7 +24,7 @@ youtube.addEventListener("mouseover", () => {
   youtube.innerHTML =
     "<img src='../images/youtube_hover.png' style='height:0.9em;'/>";
   setTimeout(() => {
-    youtube.innerHTML = `<i class="fa-brands fa-youtube"></i>`;
+    youtube.innerHTML = `<i class="fa-brands fa-youtube mini_spacing"></i>`;
   }, 50);
 });
 
