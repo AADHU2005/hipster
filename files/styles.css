@@ -14,7 +14,7 @@ body {
 .card:hover {
     box-shadow: 0 8px 16px 0 rgb(65, 62, 255);
     transition: 0.7s;
-    transform: scale(1.075);
+    transform: scale(1.05);
 }
   
 .title {
@@ -45,6 +45,4 @@ button:hover, a:hover {
     opacity: 0.7;
 }
 
-/* img:hover {
-    transform: scale(1.5);
-} */
+
