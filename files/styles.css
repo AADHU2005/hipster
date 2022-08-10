@@ -15,7 +15,7 @@ body {
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgb(0, 255, 136);
+    box-shadow: 0 8px 16px 0 rgb(0, 217, 255);
     transition: 0.7s;
     transform: scale(1.05);
 }
