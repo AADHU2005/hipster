@@ -32,6 +32,10 @@
     <link rel="stylesheet" href="files/styles.css" />
     <script src="files/liveReload.js"></script>
     <script defer src="files/hoverImage.js"></script>
+
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="files/particles.js"></script>
+
     <noscript style="color: white">
       This page needs JavaScript activated to work properly. Please enable
       JAVASCRIPT in your browser!
@@ -43,30 +47,137 @@
     </noscript>
   </head>
   <body>
-    <br />
-    <br />
-    <div class="card" id = "card">
+    <div id="particles-js"></div>
+    <br /><br />
+    <div class="card" id ="card">
       <img id = "main_logo" src="images/hipster.jpg" alt="hippu" style="width: 100%" />
       <h1>Pranav Raj</h1>
       <p class="title">Content Creator, Entertainer</p>
       <p></p>
-      <a href="https://www.instagram.com/hipsterrgaming/" id="social_insta"
-        ><i class="fa-brands fa-instagram mini_spacing"></i
-      ></a>
-      <a href="https://discord.gg/hipster" id="social_discord"
-        ><i class="fa-brands fa-discord mini_spacing"></i
-      ></a>
-      <a href="https://www.youtube.com/c/HipsterGaming" id="social_youtube"
-        ><i class="fa fa-youtube-play"></i
-      ></a>
+      <a href="https://www.instagram.com/hipsterrgaming/" id="social_insta"><i class="fa-brands fa-instagram mini_spacing"></i></a>
+      <a href="https://discord.gg/hipster" id="social_discord"><i class="fa-brands fa-discord mini_spacing"></i></a>
+      <a href="https://www.youtube.com/c/HipsterGaming" id="social_youtube"><i class="fa fa-youtube-play"></i></a>
       <a
         href="https://loco.gg/streamers/OWEBNUGBBY"
         id="social_loco"
         class="mini_spacing"
-        ><img src="images/loco.png" alt="loco" height="18" width="20"
-      /></a>
+      ><img src="images/loco.png" alt="loco" height="18" width="20"/></a>
     </div>
-    <br />
-    <br />
+  
   </body>
+
+  <script>
+    particlesJS("particles-js",
+      {
+        "particles": {
+          "number": {
+            "value": 109,
+            "density": {
+              "enable": true,
+              "value_area": 710.2328774690454
+            }
+          },
+          "color": {
+            "value": "#ffffff"
+          },
+          "shape": {
+            "type": "circle",
+            "stroke": {
+              "width": 0,
+              "color": "#000000"
+            },
+            "polygon": {
+              "nb_sides": 5
+            },
+            "image": {
+              "src": "img/github.svg",
+              "width": 100,
+              "height": 100
+            }
+          },
+          "opacity": {
+            "value": 0.5,
+            "random": false,
+            "anim": {
+              "enable": false,
+              "speed": 1,
+              "opacity_min": 0.1,
+              "sync": false
+            }
+          },
+          "size": {
+            "value": 3,
+            "random": true,
+            "anim": {
+              "enable": false,
+              "speed": 40,
+              "size_min": 0.1,
+              "sync": false
+            }
+          },
+          "line_linked": {
+            "enable": true,
+            "distance": 150,
+            "color": "#ffffff",
+            "opacity": 0.3928359549120531,
+            "width": 1.603412060865523
+          },
+          "move": {
+            "enable": true,
+            "speed": 6,
+            "direction": "none",
+            "random": false,
+            "straight": false,
+            "out_mode": "out",
+            "bounce": false,
+            "attract": {
+              "enable": false,
+              "rotateX": 600,
+              "rotateY": 1200
+            }
+          }
+        },
+        "interactivity": {
+          "detect_on": "canvas",
+          "events": {
+            "onhover": {
+              "enable": false,
+              "mode": "repulse"
+            },
+            "onclick": {
+              "enable": false,
+              "mode": "push"
+            },
+            "resize": true
+          },
+          "modes": {
+            "grab": {
+              "distance": 400,
+              "line_linked": {
+                "opacity": 1
+              }
+            },
+            "bubble": {
+              "distance": 400,
+              "size": 40,
+              "duration": 2,
+              "opacity": 8,
+              "speed": 3
+            },
+            "repulse": {
+              "distance": 200,
+              "duration": 0.4
+            },
+            "push": {
+              "particles_nb": 4
+            },
+            "remove": {
+              "particles_nb": 2
+            }
+          }
+        },
+        "retina_detect": true
+      }
+    )
+  </script>
 </html>
