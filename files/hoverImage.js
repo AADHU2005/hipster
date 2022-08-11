@@ -7,6 +7,9 @@ let hipsterImages = [
   "hipster4",
   "hipster5",
   "hipster6",
+  "hipster7",
+  "hipster8",
+  "hipster9",
 ];
 
 image.addEventListener("mouseover", async () => {
