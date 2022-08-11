@@ -1,70 +1,94 @@
 body {
-    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
 }
 
 .card {
-    box-shadow: 0 10px 25px 0 rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    transition: 1s;
-    border-radius: 10px;
-    padding: 20px;
-    
+  box-shadow: 0 10px 25px 0 rgb(0, 0, 0);
+  background-color: rgb(93, 240, 130);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  transition: 1s;
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgb(0, 217, 255);
-    transition: 0.7s;
-    transform: scale(1.05);
+  box-shadow: 0 8px 16px 0 rgb(0, 217, 255);
+  transition: 0.7s;
+  transform: scale(1.05);
 }
-  
+
 .title {
-    color: grey;
-    font-size: 18px;
+  color: grey;
+  font-size: 18px;
 }
-  
+
 button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
 }
-  
+
 a {
-    text-decoration: none;
-    font-size: 22px;
-    color: rgba(0, 0, 0, 0.815);
+  text-decoration: none;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.815);
 }
 
 .mini_spacing {
-    margin-right: 5px;
-    margin-left: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 #social_youtube:hover {
-    color: red;
-    transition: 0.5s;
+  color: red;
+  transition: 0.5s;
 }
 
 #social_discord:hover {
-    color: #5865F2;
-    transition: 0.5s;
+  color: #5865f2;
+  transition: 0.5s;
+}
+#social_loco:hover {
+  content: url(https://cdn.discordapp.com/attachments/970594454517993482/1007153402406506496/loco_white.png);
+  height: 0.90em;
+  width: 0.90em;
 }
 
 #social_insta:hover {
-    color: #f09433; 
-    color: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
-    color: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    color: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
-    transition: 0.5s;
+  color: #f09433;
+  color: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  color: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  color: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  transition: 0.5s;
 }
-
