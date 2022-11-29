@@ -192,7 +192,7 @@ button:hover {
 .about-us {
   height: 70vh;
   width: 100%;
-  padding: 400px 0;
+  padding: 40% 0;
 }
 .pic {
   height: auto;
@@ -228,7 +228,7 @@ button:hover {
   letter-spacing: 1px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 769px) {
   .card {
     max-width: 250px;
   }
@@ -258,8 +258,9 @@ button:hover {
   }
 
   .text{
-    width: 540px;
+    width: 520px;
     color: #ffffff;
+    padding-left: 5%;
   }
   .text h2 {
     font-size: 40px;
