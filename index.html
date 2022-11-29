@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Hipster Gaming</title>
+    <title>Hipster Gaming || Hippu Sulthan</title>
     <link
       rel="icon"
       type="image/png"
@@ -29,155 +29,94 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="files/styles.css" />
-    <script src="files/liveReload.js"></script>
-    <script defer src="files/hoverImage.js"></script>
-
-    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="files/particles.js"></script>
+    <link 
+    rel="stylesheet" 
+    href="https://www.w3schools.com/w3css/4/w3.css"
+    />
+    <link 
+    rel="stylesheet" 
+    href="files/styles.css" 
+    />
 
     <noscript style="color: white">
       This page needs JavaScript activated to work properly. Please enable
       JAVASCRIPT in your browser!
-      <style>
-        div {
-          display: none;
-        }
-      </style>
     </noscript>
   </head>
   <body>
-    <div id="particles-js"></div>
-    <br /><br />
-    <div class="card" id ="card">
-      <img id = "main_logo" src="images/hipster.jpg" alt="hippu" style="width: 100%" />
-      <h1>Pranav Raj</h1>
-      <p class="title">Content Creator, Entertainer</p>
-      <p></p>
-      <a href="https://www.instagram.com/hipsterrgaming/" id="social_insta"><i class="fa-brands fa-instagram mini_spacing"></i></a>
-      <a href="https://discord.gg/hipster" id="social_discord"><i class="fa-brands fa-discord mini_spacing"></i></a>
-      <a href="https://www.youtube.com/c/HipsterGaming" id="social_youtube"><i class="fa fa-youtube-play"></i></a>
-      <a
-        href="https://loco.gg/streamers/OWEBNUGBBY"
-        id="social_loco"
-        class="mini_spacing"
-      ><img src="images/loco.png" alt="loco" height="23" width="20"/></a>
+    <div class="profile-bkg-hero-wrapper" style="background-color:#fc4336">
+      <div class="slice-div slice-div-large slice-div-large-void"></div>
     </div>
-  
-  </body>
+    <div class="card">
+      <img src="/images/hipster.jpg" alt="Hipster" style="width:100%">
+      <h1>Pranav Raj</h1>
+      <p class="title">Content Creator & Streamer</p>
+      <div class="location-box">
+        <img src="images/map-icon.svg" alt="Location" class="location-icon"><p style="color: #e4e4e4;">Kerala, India</p>
+      </div>
+      <p><button><a href="#about">Find Out More</a></button></p>
+    </div>
 
+    <section class="about-us">
+      <div id="about"></div>
+      <div class="about w3-hide-small">
+        <img src="/images/hipster2.jpeg" class="pic" alt="Hipster">
+        <div class="text">
+          <h2>Hipster Gaming</h2>
+          <h5>Content Creator & <span style="color: #4070f4;">Streamer</span></h5>
+            <p class="para">Pranav Raj, better known as Hipster Gaming, is an Indian streamer, <span style="color: red;" onclick="ytRedirect()">YouTuber</span> and professional content creator. Pranav began streaming by playing Garena Free Fire  in late 2019. He has over 800k subscribers in YouTube, which was established in 2019.</p>
+        </div>
+      </div>
+
+      <div class="about w3-hide-large w3-hide-medium">
+        <div class="text">
+          <img src="/images/hipster2.jpeg" class="pic" alt="Hipster">
+          <h2>Hipster Gaming</h2>
+          <h5>Content Creator & <span style="color: #4070f4;">Streamer</span></h5>
+          <p class="para">Pranav Raj, better known as Hipster Gaming, is an Indian streamer, <span style="color: red;" onclick="ytRedirect()">YouTuber</span> and professional content creator. Pranav began streaming by playing Garena Free Fire  in late 2019. He has over 800k subscribers in YouTube, which was established in 2019.</p>
+        </div>
+      </div>
+    </section>
+    <div class="services-box">
+      <div class="container">
+        <div class="services w3-hide-small">
+            <div class="service">
+              <span class="yt" onclick="ytRedirect()"><i class="fa-brands fa-youtube"></i> Hipster Gaming</span>
+            </div>
+            <div  class="service">
+              <span class="instagram" onclick="instaRedirect()"><i class="fa-brands fa-instagram"></i> hipsterrgaming</span>
+            </div>
+            <div class="service">
+              <span class="discord" onclick="discordRedirect()"><i class="fa-brands fa-discord"></i> Hipster Gaming</span>
+            </div>
+        </div>
+        <div class="container">
+          <div class="services w3-hide-large w3-hide-medium" style="padding-top: 40%;">
+              <div class="service">
+                <span class="yt" onclick="ytRedirect()"><i class="fa-brands fa-youtube"></i> Hipster Gaming</span>
+              </div>
+              <div  class="service">
+                <span class="instagram" onclick="instaRedirect()"><i class="fa-brands fa-instagram"></i> hipsterrgaming</span>
+              </div>
+              <div class="service">
+                <span class="discord" onclick="discordRedirect()"><i class="fa-brands fa-discord"></i> Hipster Gaming</span>
+              </div>
+          </div>
+        <br>
+      </div>
+    </div>
+  </body>
   <script>
-    particlesJS("particles-js",
-      {
-        "particles": {
-          "number": {
-            "value": 109,
-            "density": {
-              "enable": true,
-              "value_area": 710.2328774690454
-            }
-          },
-          "color": {
-            "value": "#ffffff"
-          },
-          "shape": {
-            "type": "circle",
-            "stroke": {
-              "width": 0,
-              "color": "#000000"
-            },
-            "polygon": {
-              "nb_sides": 5
-            },
-            "image": {
-              "src": "img/github.svg",
-              "width": 100,
-              "height": 100
-            }
-          },
-          "opacity": {
-            "value": 0.5,
-            "random": false,
-            "anim": {
-              "enable": false,
-              "speed": 1,
-              "opacity_min": 0.1,
-              "sync": false
-            }
-          },
-          "size": {
-            "value": 3,
-            "random": true,
-            "anim": {
-              "enable": false,
-              "speed": 40,
-              "size_min": 0.1,
-              "sync": false
-            }
-          },
-          "line_linked": {
-            "enable": true,
-            "distance": 150,
-            "color": "#ffffff",
-            "opacity": 0.3928359549120531,
-            "width": 1.603412060865523
-          },
-          "move": {
-            "enable": true,
-            "speed": 6,
-            "direction": "none",
-            "random": false,
-            "straight": false,
-            "out_mode": "out",
-            "bounce": false,
-            "attract": {
-              "enable": false,
-              "rotateX": 600,
-              "rotateY": 1200
-            }
-          }
-        },
-        "interactivity": {
-          "detect_on": "canvas",
-          "events": {
-            "onhover": {
-              "enable": false,
-              "mode": "repulse"
-            },
-            "onclick": {
-              "enable": false,
-              "mode": "push"
-            },
-            "resize": true
-          },
-          "modes": {
-            "grab": {
-              "distance": 400,
-              "line_linked": {
-                "opacity": 1
-              }
-            },
-            "bubble": {
-              "distance": 400,
-              "size": 40,
-              "duration": 2,
-              "opacity": 8,
-              "speed": 3
-            },
-            "repulse": {
-              "distance": 200,
-              "duration": 0.4
-            },
-            "push": {
-              "particles_nb": 4
-            },
-            "remove": {
-              "particles_nb": 2
-            }
-          }
-        },
-        "retina_detect": true
-      }
-    )
+
+    function ytRedirect() {
+      location.href = "https://www.youtube.com/c/HipsterGaming"
+    }
+    function instaRedirect() {
+      location.href = "https://www.instagram.com/hipsterrgaming/"
+    }
+    function discordRedirect() {
+      location.href = "https://discord.com/invite/hipster"
+    }
+
   </script>
 </html>
