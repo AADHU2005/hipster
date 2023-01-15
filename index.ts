@@ -1,9 +1,12 @@
-import { Application } from "https://deno.land/x/oak@v10.6.0/mod.ts";
+import {
+  Application,
+  Context,
+  Next,
+} from "https://deno.land/x/oak@v10.6.0/mod.ts";
 
 const app = new Application();
 
-// deno-lint-ignore no-explicit-any
-app.use(async (context: any, next: any) => {
+app.use(async (context: Context, next: Next) => {
   try {
     await context.send({
       root: `${Deno.cwd()}/`,
@@ -15,4 +18,4 @@ app.use(async (context: any, next: any) => {
 });
 
 await app.listen({ port: 8000 });
-console.log("Server started on http://localhost:8000");
+console.log("Server started on port 8000");
